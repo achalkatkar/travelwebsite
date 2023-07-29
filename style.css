@@ -53,3 +53,42 @@ nav{
     text-align: center;
     padding-top: 20% ;
 }
+.search-bar
+{
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.search-bar form button{
+    background: #ff5361;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.search-bar form button img{
+    width: 20px;
+    margin-top: 7px
+}
+.location-input
+{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 600;
+}
