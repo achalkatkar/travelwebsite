@@ -81,6 +81,7 @@ nav{
     outline: none;
     cursor: pointer;
 }
+
 .search-bar form button img{
     width: 20px;
     margin-top: 7px
@@ -171,6 +172,11 @@ nav{
     border-radius: 8px;
     display: inline-block;
 }
+.cta-btn:hover{
+    background: #08051f;
+    transition: 1s;
+    
+}
 
 /*------travellers Stories------*/
 .stories{
@@ -212,6 +218,10 @@ nav{
     padding: 15px;
     border-radius: 30px;
     font-size: 20px;
+}
+.start-btn:hover{
+    background: #08051f;
+    transition: 1s;
 }
 
 /*------about-msg------*/
